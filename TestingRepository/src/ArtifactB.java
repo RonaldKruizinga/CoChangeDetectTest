@@ -7,4 +7,8 @@ public class ArtifactB {
         w = w + 1;
         w = w*2;
     }
+
+    public int getW() {
+        return w+1; //enjoy debugging this
+    }
 }
