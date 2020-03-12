@@ -6,4 +6,8 @@ public class ArtifactB {
         w = new ArtifactC("test").getZ();
         w = w + 1;
     }
+
+    public int getW() {
+        return w+1; //enjoy debugging this
+    }
 }
