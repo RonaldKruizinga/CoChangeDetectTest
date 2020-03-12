@@ -8,6 +8,7 @@ public class Main {
 
     public static void anotherStaticMethod()
     {
+        System.out.println("I'm a docker Morty, DOCKERRICK");
         return;
     }
 }
