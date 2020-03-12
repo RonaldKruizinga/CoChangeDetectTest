@@ -10,6 +10,7 @@ public class Main {
     {
 
         Cyclic cyclic = new Cyclic();
+        System.out.println("I'm a docker Morty, DOCKERRICK");
         return;
     }
 }
