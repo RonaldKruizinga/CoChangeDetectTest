@@ -7,6 +7,6 @@ public class ArtifactC {
     }
 
     public int getZ(){
-        return z-5;
+        return z-2;
     }
 }
