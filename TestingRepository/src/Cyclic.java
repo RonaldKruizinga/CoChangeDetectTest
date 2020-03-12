@@ -3,6 +3,9 @@ public class Cyclic {
         Main.anotherStaticMethod();
     }
 
+    /**
+     * Get 5 as a Long
+     * */
     private long getFiveAsLong(){
         return 5L;
     }
