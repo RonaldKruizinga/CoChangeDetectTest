@@ -5,6 +5,7 @@ public class ArtifactA {
 
     public ArtifactA(){
         ArtifactD d = new ArtifactD();
-        d.addChild(d);
+        int c = d.addChild(d);
+        System.out.println("twice the child count:" + c);
     }
 }
