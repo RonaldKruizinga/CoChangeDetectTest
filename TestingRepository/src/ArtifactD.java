@@ -11,7 +11,8 @@ public class ArtifactD {
         children = new ArrayList<>();
     }
 
-    public void addChild(ArtifactD d){
+    public int addChild(ArtifactD d){
         children.add(d);
+        return method(children.size());
     }
 }
