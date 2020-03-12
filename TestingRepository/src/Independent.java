@@ -1,6 +1,6 @@
 public class Independent {
     public static class SubClass{
-        int x;
+        static int x;
     }
 
     public static SubClass instance;
@@ -11,4 +11,9 @@ public class Independent {
         }
         return instance;
     }
+
+    public Independent(int x){
+        SubClass.x = x;
+    }
+
 }
