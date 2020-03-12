@@ -5,5 +5,6 @@ public class ArtifactB {
         a = ArtifactA.Create();
         w = new ArtifactC("test").getZ();
         w = w + 1;
+        w = w*2;
     }
 }
