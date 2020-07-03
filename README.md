@@ -5,4 +5,4 @@ Used for system tests to verify correct output.
 
 ## Usage
 
-This project is used through the unit tests for CoCo and should not be utilised by itself.
+This project is used through the system tests for CoCo and should not be utilised by itself.
